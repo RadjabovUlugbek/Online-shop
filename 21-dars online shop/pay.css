@@ -1,0 +1,122 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pay {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+body h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 1rem 0;
+}
+
+.cards {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.produc {
+    width: 50%;
+    height: 100%;
+}
+
+input {
+    width: 20rem;
+    height: 5vh;
+    background-color: black;
+    border: white 1px solid;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pay_btn {
+    background-color: rgb(21, 255, 0);
+    border: 0;
+    padding: .7rem;
+    border-radius: 10px;
+    color: white;
+    margin-left: 1%;
+}
+
+.boxes {
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 0%;
+}
+
+.box {
+    background-color: rgb(102, 102, 102);
+    text-align: center;
+    border-radius: 10px;
+    margin: 1%;
+    width: 90%;
+    height: 60vh;
+    line-height: 0px;
+    align-items: stretch;
+}
+
+img {
+    width: 100%;
+    height: 35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.delete {
+    color: white;
+    padding: .5rem;
+    border: 0;
+    margin: 5px 0;
+    background-color: red;
+}
+
+.size {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    height: 10%;
+    padding: 0 2rem;
+    margin: auto;
+    line-height: 0px;
+    background: black;
+}
+
+.size span {
+    background-color: black;
+    color: white;
+}
+
+.height {
+    background-color: black;
+    color: white;
+}
+
+.width {
+    background-color: black;
+    color: white;
+}
+.produc h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
